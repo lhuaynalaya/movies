@@ -1,0 +1,21 @@
+.cargando-componente {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background: #FFF;
+}
+.cargando-componente.active {
+  display: block;
+  z-index: 4;
+}
+.spinner-center {
+  width: 62px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}

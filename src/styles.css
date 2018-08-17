@@ -1,0 +1,35 @@
+.app {
+  position: relative;
+}
+.app-body {
+  display: flex;
+  background-color: #f5f5f5;
+}
+.app-body-section {
+  background: #FFF;
+  margin-left: 200px;
+  width: 100%;
+  transition: all .2s ease;
+  background-color: #e4e5e6;
+}
+.app-body-section.abierto {
+  margin-left: 0px;
+}
+.app-main {
+  background: #FFF;
+  position: relative;
+  margin-top: 50px;
+}
+.errors {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.errors li {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+}

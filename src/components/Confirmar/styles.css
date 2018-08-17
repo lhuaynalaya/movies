@@ -1,0 +1,52 @@
+.sombra-confirmar {
+  display: none;
+}
+.sombra-confirmar-mostrar {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 253, 254, 0.5);
+  z-index: 10;
+}
+.confirmar {
+  width: 400px;
+  min-height: 120px;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  border-radius: 2px;
+  box-shadow: 0px 8px 30px #757575;
+  transition: all 1s;
+}
+
+.icon-confirmar {
+  font-size: 4em;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #ffb33c;
+}
+.advertencia {
+  padding: 15px;
+}
+.advertencia > div > a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  padding: 6px 20px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.advertencia > div > a.aceptar {
+  background: #2fa3e7;
+  color: white;
+}
+.advertencia > div > a.cancel {
+  color: #727272;
+}

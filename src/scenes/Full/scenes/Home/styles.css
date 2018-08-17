@@ -1,0 +1,50 @@
+.home-pelicula {
+  max-width: 330px;
+  margin: 35px auto;
+  margin-bottom: 21px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.home-body {
+  padding: 20px;
+}
+
+.pelicula img{
+  height: 400px;
+}
+
+.nombre-pelicula{
+  font-size: 16px;
+  color: #212529;
+  font-family: gotham rounded;
+  margin-top: 15px;
+}
+
+.ranking-pelicula{
+  font-size: 21px;
+  color: #212529;
+  font-family: gotham rounded;
+}
+
+.div-columna {
+  width:30%;
+  float:left;
+  margin-left: 24px;
+}
+
+@media (max-width: 500px) {
+  
+  .div-columna {
+    width:auto;
+    float:none;
+  }
+  
+}
+
+
+
+

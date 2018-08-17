@@ -1,0 +1,44 @@
+.pelicula-sinopsis {
+ 	word-wrap: break-word;
+    margin-left: 20px;
+}
+
+.vista-pelicula {
+  height: 200px;
+  margin-bottom: 21px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.vista-pelicula-body {
+  padding-top: 0px;
+}
+
+
+.nombre-pelicula-modal{
+  font-size: 23px;
+  color: #212529;
+  font-family: gotham rounded;
+}
+
+.numero-pelicula{
+  font-size: 23px;
+  color: #212529;
+  font-family: gotham rounded;
+}
+
+.genero-pelicula{
+  font-size: 14px;
+  color: #F59F00;
+  font-family: gotham rounded;
+}
+
+.idioma-pelicula{
+  font-size: 14px;
+  color: #212529;
+  font-family: gotham rounded;
+  background-color: #fafafa;
+}
